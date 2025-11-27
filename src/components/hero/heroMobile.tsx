@@ -9,7 +9,7 @@ import {
 } from '@/config/hero/heroMobile';
 
 import Typography from '../Typography';
-import DevfolioAndDiscordButtons from './hero-buttons';
+// import DevfolioAndDiscordButtons from './hero-buttons';
 
 export const HeroMobile = React.memo(() => {
   return (
