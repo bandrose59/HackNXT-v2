@@ -6,7 +6,7 @@ import Marquee from 'react-fast-marquee';
 import {
   CROWN,
   PAPER_CRACK,
-  SponsorsData,
+
 } from '@/config/sponsors';
 
 import Typography from '../Typography';
@@ -22,41 +22,41 @@ interface SponsorGridProps {
   cardType: 'alpha' | 'beta' | 'gamma' | 'delta';
 }
 
-const SponsorGrid: React.FC<SponsorGridProps> = ({ sponsors, cardType }) => {
-  if (cardType === 'delta') {
-    return (
-      <>
-        <div className="block md:hidden mr-[-6px] ml-[-3px]">
-          <Marquee
-            gradient={false}
-            speed={50}
-            pauseOnHover={false}
-            className="w-full gap-x-8"
-          >
-            <div className="flex gap-8">
-              {sponsors.map((sponsor) => (
-                <SponsorCard
-                  key={sponsor.category + sponsor.name}
-                  sponsor={sponsor}
-                  cardType="delta"
-                />
-              ))}
-            </div>
-          </Marquee>
-        </div>
+// const SponsorGrid: React.FC<SponsorGridProps> = ({ sponsors, cardType }) => {
+//   if (cardType === 'delta') {
+//     return (
+//       <>
+//         <div className="block md:hidden mr-[-6px] ml-[-3px]">
+//           <Marquee
+//             gradient={false}
+//             speed={50}
+//             pauseOnHover={false}
+//             className="w-full gap-x-8"
+//           >
+//             <div className="flex gap-8">
+//               {sponsors.map((sponsor) => (
+//                 <SponsorCard
+//                   key={sponsor.category + sponsor.name}
+//                   sponsor={sponsor}
+//                   cardType="delta"
+//                 />
+//               ))}
+//             </div>
+//           </Marquee>
+//         </div>
 
-        <div className="hidden md:flex flex-row gap-10 justify-center items-center flex-wrap">
-          {sponsors.map((sponsor) => (
-            <SponsorCard
-              key={sponsor.category + sponsor.name}
-              sponsor={sponsor}
-              cardType="delta"
-            />
-          ))}
-        </div>
-      </>
-    );
-  }
+//         <div className="hidden md:flex flex-row gap-10 justify-center items-center flex-wrap">
+//           {sponsors.map((sponsor) => (
+//             <SponsorCard
+//               key={sponsor.category + sponsor.name}
+//               sponsor={sponsor}
+//               cardType="delta"
+//             />
+//           ))}
+//         </div>
+//       </>
+//     );
+  // }
 
   return (
     <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
