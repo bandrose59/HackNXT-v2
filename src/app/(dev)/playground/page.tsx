@@ -3,7 +3,6 @@
 import React, { useEffect } from 'react';
 
 import About from '@/components/about/about';
-import AsciiLogger from '@/components/ASCII/ASCIIlog';
 import { FaqList } from '@/components/faq/faq-list';
 import Gallery from '@/components/gallery/gallery';
 import Hero from '@/components/hero/hero';
