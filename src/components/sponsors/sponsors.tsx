@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Image from 'next/image';
-import Marquee from 'react-fast-marquee';
+// import Image from 'next/image';
+// import Marquee from 'react-fast-marquee';
 
 import {
   CROWN,
@@ -10,17 +10,17 @@ import {
 } from '@/config/sponsors';
 
 import Typography from '../Typography';
-import SponsorCard from './sponsor-card';
+// import SponsorCard from './sponsor-card';
 
-interface SponsorGridProps {
-  sponsors: Array<{
-    name: string;
-    logo: string;
-    category: string;
-    link: string;
-  }>;
-  cardType: 'alpha' | 'beta' | 'gamma' | 'delta';
-}
+// interface SponsorGridProps {
+//   sponsors: Array<{
+//     name: string;
+//     logo: string;
+//     category: string;
+//     link: string;
+//   }>;
+//   cardType: 'alpha' | 'beta' | 'gamma' | 'delta';
+// }
 
 // const SponsorGrid: React.FC<SponsorGridProps> = ({ sponsors, cardType }) => {
 //   if (cardType === 'delta') {
