@@ -45,7 +45,7 @@ export default function Page() {
         <FaqList />
       </div>
       <ScrollMarquee />
-      <AsciiLogger />
+    
     </>
   );
 }
