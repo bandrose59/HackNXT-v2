@@ -58,18 +58,18 @@ interface SponsorGridProps {
 //     );
   // }
 
-  return (
-    <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
-      {sponsors.map((sponsor) => (
-        <SponsorCard
-          key={sponsor.category + sponsor.name}
-          sponsor={sponsor}
-          cardType={cardType}
-        />
-      ))}
-    </div>
-  );
-};
+//   return (
+//     <div className="flex flex-col md:flex-row gap-10 justify-center items-center">
+//       {sponsors.map((sponsor) => (
+//         <SponsorCard
+//           key={sponsor.category + sponsor.name}
+//           sponsor={sponsor}
+//           cardType={cardType}
+//         />
+//       ))}
+//     </div>
+//   );
+// };
 
 export const Sponsors = () => {
   return (
