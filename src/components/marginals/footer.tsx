@@ -103,7 +103,7 @@ export default function Footer() {
               Hack
             </Typography.Display>
             <Typography.Display className="text-center font-grutch-shaded font-normal text-[28vw] sm:text-[24vw] md:text-[20vw] leading-none -mt-2">
-              NITR
+              NXT
             </Typography.Display>
           </div>
 
