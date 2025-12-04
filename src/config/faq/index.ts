@@ -23,7 +23,7 @@ export const questions: Question[] = [
 {
   question: 'What is the participation fee?',
   answer:
-    'The participation fee is ₹599 per team. This covers access to the full 36-hour hackathon, workshops, sessions, and all event facilities.',
+    'The participation fee is ₹400 per team. This covers access to the full 36-hour hackathon, workshops, sessions, and all event facilities.',
   answerStyle: 'h-32',
   questionStyle: 'mb-24 -bottom-24',
   fontSizeScaling: 'text-[clamp(0.75rem,3vw,1rem)]',
